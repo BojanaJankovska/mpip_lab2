@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab2_OMDB</string>
+    <string name="search">Search</string>
+    <string name="release_year">Release Year</string>
+    <string name="movieimage">movieImage</string>
+    <string name="movie_not_found">Movie not found</string>
+</resources>

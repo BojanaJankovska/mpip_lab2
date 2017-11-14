@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.martin.lab2_omdb.activities.MovieDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/movie_image_moviedetailsactivity"
+            android:layout_width="150dp"
+            android:layout_height="170dp" />
+
+        <LinearLayout
+            android:layout_below="@id/movie_image_moviedetailsactivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+            android:id="@+id/movie_name_text_view_moviedetailsactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+            <TextView
+                android:id="@+id/movie_rated_moviedetailsactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="Rated"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/movie_rating_text_view_moviedetailsactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="5dp"
+                android:paddingTop="14dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/movie_year_moviedetailsactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="7dp"
+                android:text="Year"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/movie_year_text_view_moviedetailsactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="7dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/runtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Runtime"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/movie_runtime_moviedetailsactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:paddingTop="7dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actors"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/movie_actors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
